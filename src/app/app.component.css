@@ -1,0 +1,59 @@
+.section-one {
+  /* The image used */
+  background-color: #f9f2e2;
+
+  /* Set a specific height */
+  min-height: 700px;
+  width:100%;
+
+  /* Create the parallax scrolling effect */
+  position: fixed;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-two{
+  min-height: 700px;
+  background-color: #f8bfb9;
+  color:#f9f2e2;
+  font-size:36px;
+  text-align: center;
+}
+
+.section-two a{
+  color: #362F32;
+}
+
+.circle{
+  position: relative;
+  background: #f9f2e2;
+  color: #f8bfb9;
+  font-size: 250%;
+  border-radius: 50%;
+  border: solid #f8bfb9 10px;
+  width:350px;
+  height:350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.circle p{
+  margin: 0;
+}
+.sub-header{
+  font-size: 40%;
+}
+
+.slide {
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
